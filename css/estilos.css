@@ -21,3 +21,27 @@ button{
 button{
     background-color: #025157;
 }
+
+ul{
+    list-style-type:none;
+    background-color: rgb(147, 180, 114);
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: rgb(150, 65, 79);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.barranav{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
