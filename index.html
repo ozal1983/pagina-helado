@@ -29,14 +29,19 @@
     </div>
 </header>
 <body>
-    <h1 class="colorbase">Bienvenido, navega por nuestro sitio Web! </h1>
+    <section class="primer-aparte">
+        <h1 class="colorbase">Bienvenido, navega por nuestro sitio Web! </h1>
+        <img src="/otros archivos/helado.jpg" width="600px">
+    </section>
+    
+    <hr color="#93b472">
     <h4 class="colorbase ">hechale un vistazo a nuestros productos, sabemos que te van a encantar!!!!!</h4>
     <p>¡¡¡Aprovecha nuestra promocion de miercoles de 2X1!!! xD</p>
-    <img src="/otros archivos/helado.jpg" width="500px">
     
-    <br>
+    
+    <br class="colorbase">
 
-    </form> 
+     
     <!--<iframe src='index.html' class="marco" name='marco1'></iframe>-->
 
     <iframe  name='marco1'width=100% height="315" src="https://www.youtube.com/embed/DkGBSbe_dMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -44,12 +49,18 @@
     <div class="centrar">
     <a href="index.html" target="marco1" class="boton" >viste nuestro video? si quieres aprender mas dale click aqui :)</a>    
     </div>  
-    <form>    
+    
+    <hr color="#93b472">
     <br>
-    <input type="email"/>
-    <button type="submit">
-            Mandanos un email
-    </button>
+    
+    <form>
+        <label for="correo" class="colorbase">Quieres informacion a tu correo?</label><br>
+        <input type="email" id="correo" placeholder="escribe tu mail"/><br>
+        <input type="submit" value="Enviar" class="boton"/>
+        
+        
+    </form>
+    
     <br>
     <br>
     <a href="#inicio" class="colorbase">vuelve al Inicio :)</a>    
