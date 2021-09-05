@@ -106,7 +106,9 @@ form {
 }
 
 .centrar {
-  text-align: center;
+  text-align: center; 
+  margin-bottom: 20px;
+  font-size: 30px;
 }
 
 .boton {
@@ -116,6 +118,11 @@ form {
   display: inline-block;
   padding: 3px;
   color: #a05b66;
+}
+
+.iframe{
+  align-items: center;
+  margin-bottom: 20px;  
 }
 
 header{
@@ -221,6 +228,62 @@ hr {
   margin-bottom: 60px;
 }
 
+
+/*clientes*/
+
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cards .card{
+  background: #cb997e;
+  display: flex;
+  width: 46%;
+  height: 300px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,.6);
+  margin: 15px;
+}
+
+.cards .card img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  display:block;
+}
+
+.cards .card > .contenido-texto-card{
+  width: 60%;
+  color: blueviolet ;
+
+}
+
+.cards .card > .contenido-texto-card p{
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 5px;
+  color: #fff;
+}
+
+.cards .card > .contenido-texto-card h6{
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 5px;
+}
+
+.clientescontenedor .titulo{
+  color:  blueviolet;
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 60px;
+  display: inline-block;
+}
+
 /*# sourceMappingURL=main.css.map */
 /* footer*/
 
@@ -230,6 +293,7 @@ footer{
   padding: 60px 0 30px 0;
   margin: auto;
   overflow: hidden;
+
 }
 
 .contenedor-footer{
@@ -250,12 +314,12 @@ footer{
   border-bottom: 3px solid  #cb997e;
   padding-bottom: 5px;
   margin-bottom: 10px;
-
+  font-size: 16px;
 }
 
 .content-foo p{
   color: #ccc; 
-  
+  font-size: 16px;
 }
 
 .titulo-final{
